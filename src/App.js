@@ -3,7 +3,7 @@ import Header from "./components/Hearder";
 import ListaProducto from "./components/ListaProducto";
 import { Switch, Route} from 'react-router-dom'
 import NuevoProduto from "./components/NuevoProducto";
-import DetalleProducto from "./components/DetalleProducto";
+import EditarProducto from "./components/EditarProducto";
 function App() {
   return (
       <Fragment>
@@ -11,7 +11,7 @@ function App() {
         <Switch>
             <Route exact path="/" component={ListaProducto}/>
             <Route exact path="/productos/nuevo" component={NuevoProduto}/>
-            <Route exact path="/productos/editar/:id" component={DetalleProducto}/>
+            <Route exact path="/productos/editar/:id" component={EditarProducto}/>
         </Switch>
       </Fragment>
   );
