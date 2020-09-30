@@ -19,7 +19,7 @@ const NuevoProduto = ()=>{
                                 <input type="number" className="form-control" placeholder="Precio Producto" name="precio"/>
                             </div>
                             <button type="submit"
-                                    className="btn btn-primary font-weight-bold text-uppercase">
+                                    git className="btn btn-primary font-weight-bold text-uppercase">
                                 Agregar
                             </button>
                         </form>
